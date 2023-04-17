@@ -1,5 +1,7 @@
 <template>
   <div>
+
+    <!--basic page setup-->
     <header class="Page_Header"><page-header></page-header></header>
     <main class="Page_Main"><display-posts></display-posts></main>
     <footer class="Page_Footer"><page-footer></page-footer></footer>
@@ -7,6 +9,9 @@
 </template>
 
 <script>
+
+//importing my components//
+
 import PageHeader from './components/PageHeader.vue';
 import DisplayPosts from './components/DisplayPosts.vue';
 import PageFooter from './components/PageFooter.vue';
