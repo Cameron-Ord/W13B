@@ -1,5 +1,7 @@
 <template>
-    <div>
+    <div class="colorblock">
+
+        <h1>text</h1>
 
     </div>
 </template>
@@ -12,4 +14,13 @@
 
 <style scoped>
 
+
+.colorblock{
+
+    height: 100%;
+
+    width: 100%;
+
+    background-color: black;
+}
 </style>
